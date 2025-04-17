@@ -4,7 +4,7 @@
 Table des matières:
 - [Présentation du projet]()
 - [Objectifs]()
-- [Documentation du programme]()
+- [Utilisation du programme]()
 - [Détail de la structure du programme]()
 
 ### Présentation du projet
@@ -29,6 +29,13 @@ Voici les consignes de ce projet:
 - Découpage du code en plusieurs fichiers (Entête .h et source .c)
 
 ```
+
+### Utilisation du programme
+
+Pour lancer le programme, il faut compiler et exécuter le programme grâce à ligne de commande:
+
+`$ make`
+`$ ./caesar`
 
 ### Détail de la structure du programme
 
@@ -56,3 +63,6 @@ Voici les consignes de ce projet:
 
 - `src/verifier_alphanum.c` : Fonction qui vérifie si une chaîne contient uniquement des caractères alphanumériques
   - Prend en paramètre une chaîne de caractère et renvoie un booléen indiquant si la chaîne contient uniquement des caractères alphanumériques et des espaces.
+
+
+
