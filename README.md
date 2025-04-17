@@ -6,6 +6,8 @@ Table des matières:
 - [Objectifs](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Objectifs)
 - [Utilisation du programme](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Utilisation-du-programme)
 - [Détail de la structure du programme](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#d%C3%A9tail-de-la-structure-du-programme)
+- [Exemples de sorties](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Exemples-de-sorties)
+
 
 ## Présentation du projet
 
@@ -66,3 +68,50 @@ Pour lancer le programme, il faut compiler et exécuter le programme grâce à l
 
 
 
+
+## Exemples de sortie
+Chiffrer
+```
+[16:34:31] [?] Entrez votre message  >cacatoès
+[16:34:48] [?] Entrez la valeur de la clef  >10
+[16:34:50] [*] mkmkdyoc 
+```
+
+Déchiffrer
+```
+[16:36:30] [?] Entrez votre message  >mkmkdyoc
+[16:36:41] [?] Entrez la valeur de la clef  >10
+[16:36:42] [*] cacatoes 
+```
+
+Menu
+```
+ /__________________________________\ 
+ |               MENU               | 
+ |__________________________________| 
+ |      0. Quitter                  | 
+ |                                  | 
+ |      1. Chiffrer caesar          | 
+ |      2. Déchiffrer caesar        | 
+ |                                  | 
+ \_________________________________/ 
+[16:36:42] [?] Entrez votre choix  >
+```
+
+Contenu de 'output.txt'
+```
+ ________________________ 
+[15:55:19] [*] Message d'origine: 
+ caca 
+[15:55:19] [*] Message chiffré: 
+ kiki 
+[15:55:19] [*] Clef utilisée: 
+ 8 
+ ________________________ 
+[16:34:50] [*] Message d'origine: 
+ cacatoes 
+[16:34:50] [*] Message chiffré: 
+ mkmkdyoc 
+[16:34:50] [*] Clef utilisée: 
+ 10 
+```
