@@ -2,18 +2,18 @@
 ## Chiffrement caesar
 
 Table des matières:
-- [Présentation du projet]()
-- [Objectifs]()
-- [Utilisation du programme]()
-- [Détail de la structure du programme]()
+- [Présentation du projet](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Pr%C3%A9sentation-du-projet)
+- [Objectifs](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Objectifs)
+- [Utilisation du programme](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#Utilisation-du-programme)
+- [Détail de la structure du programme](https://github.com/KawaCoder/projet_caesar/tree/main?tab=readme-ov-file#d%C3%A9tail-de-la-structure-du-programme)
 
-### Présentation du projet
+## Présentation du projet
 
 Ce mini-projet de C consiste à réaliser un programme qui implémente le chiffrement césar ou cæsar, est un chiffrement par rotation de caractères de l'alphabet latin. Le principe est de décaler les lettres du mot à chiffrer dans un sens (chiffrer) ou dans l'autre (déchiffrer). La clef du message correspond au nombre de décalage à effectuer.
 
 En C, nous avons implémenté cette méthode gràce au code ASCII, qui nous permet d'interpréter les lettres comme des nombres, et ainsi réaliser des opérations dessus.
 
-### Objectifs
+## Objectifs
 
 Voici les consignes de ce projet:
 
@@ -30,14 +30,14 @@ Voici les consignes de ce projet:
 
 ```
 
-### Utilisation du programme
+## Utilisation du programme
 
 Pour lancer le programme, il faut compiler et exécuter le programme grâce à ligne de commande:
 
 `$ make`
 `$ ./caesar`
 
-### Détail de la structure du programme
+## Détail de la structure du programme
 
 - `src/main.c` : Fonction principale qui appelle les fonctions ci-dessus pour réaliser le programme
   - Affiche un menu et récupère le choix de l'utilisateur
