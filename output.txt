@@ -1,0 +1,7 @@
+ ________________________ 
+[15:55:19] [*] Message d'origine: 
+ caca 
+[15:55:19] [*] Message chiffré: 
+ kiki 
+[15:55:19] [*] Clef utilisée: 
+ 8 

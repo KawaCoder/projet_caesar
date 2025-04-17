@@ -61,18 +61,6 @@ int main()
       caesar(message, clef, false);
       afficher(message, 3, 's');
     }
-    else if (reponse == 3)
-    {
-      // chiffrer vigenere
-      vigenere(message, clef_vigenere, true);
-      afficher(message, 3, 's');
-    }
-    else if (reponse == 4)
-    {
-      // dechiffrer vigenere
-      vigenere(message, clef_vigenere, false);
-      afficher(message, 3, 's');
-    }
     menu(&reponse);
   }
 

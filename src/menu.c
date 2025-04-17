@@ -33,8 +33,6 @@ int menu(int *choix)
     afficher("|      1. Chiffrer caesar          |", 4, 's');
     afficher("|      2. Déchiffrer caesar        |", 4, 's');
     afficher("|                                  |", 4, 's');
-    afficher("|      3. Déchiffrer vigenère      |", 4, 's');
-    afficher("|      4. Déchiffrer vigenère      |", 4, 's');
     afficher("\\_________________________________/", 4, 's');
     afficher("Entrez votre choix", 1, 's');
     while (scanf("%d", &input) != 1 || (input != 0 && input != 1 && input != 2))
